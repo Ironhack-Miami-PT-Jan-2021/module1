@@ -1,0 +1,40 @@
+.flex-container li {
+  color: white;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100px;
+  border: 1px solid black;
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
+  flex-flow: row;
+  justify-content: flex-start;
+  /* align-items: baseline; */
+}
+
+.nowrap li {
+  background-color: green;
+  order: 1;
+}
+
+.wrap li {
+  background-color: red;
+}
+
+#li {
+  order: 2;
+  align-self: flex-end;
+  justify-self: flex-end;
+  /* flex-shrink: 2; */
+  /* flex-grow: 2; */
+  /* flex-basis: content; */
+  flex: 2 3 content;
+}
+
+.wrap-reverse li {
+  background-color: blue;
+}
