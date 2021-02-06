@@ -34,6 +34,7 @@ function clickEventHandler() {
   const li = document.createElement("li");
   // add some text to that li
   //   li.innerText = "I'm an li";
+
   //   grab value from input field
   const someText = document.getElementById("some-text");
   // console.log(someText.value);
